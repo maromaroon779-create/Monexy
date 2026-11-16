@@ -1,0 +1,21 @@
+{
+  "name": "monexy",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Monexy - บันทึกรายรับรายจ่ายและเงินออม",
+  "scripts": {
+    "android:add": "cap add android",
+    "assets": "capacitor-assets generate --android",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "build:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}

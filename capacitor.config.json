@@ -1,0 +1,10 @@
+{
+  "appId": "com.monexy.app",
+  "appName": "Monexy",
+  "webDir": "www",
+  "backgroundColor": "#1c2025",
+  "android": {
+    "backgroundColor": "#1c2025",
+    "allowMixedContent": false
+  }
+}
